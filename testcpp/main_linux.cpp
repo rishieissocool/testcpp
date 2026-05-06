@@ -1,7 +1,7 @@
 #include <arpa/inet.h>
 #include <fcntl.h>
 #include <netinet/in.h>
-#include <signal.h>
+#include <csignal>
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <unistd.h>
